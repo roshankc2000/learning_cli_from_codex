@@ -19,7 +19,7 @@
 12. Music Playlists
 
 # Navigation
-Command	--- Description <br>
+## Command	--- Description
 echo --- output-here	Print what is typed next to this command.<br>
 pwd	--- Print the current working directory.<br>
 cat file-name.extension ---	Print the contents of a file.<br>
@@ -31,7 +31,7 @@ cd ../..	--- Change backward on multiple directories.<br>
 clear	--- Clear the command line screen.<br>
 
 # Manipulation
-Command ---	Description<br>
+## Command ---	Description
 mkdir ---	Create a new directory from the current directory.<br>
 touch	--- Create and save a new file.<br>
 echo "text" > file ---	Overwrite existing content in file with "text".<br>
@@ -47,7 +47,7 @@ cp file-a > file-b	--- Copy content of file-a into a file-b (overwriting anythin
 cp -r directory-a directory-b ---	Copy content of directory-a into a directory-b (overwriting anything already inside).<br>
 
 # Operators
-" Operator " ---	Description ---	Example<br>
+## " Operator " ---	Description ---	Example
 " > "	--- Overwrite the contents of a file with the results of a command. ---	echo "Hello, World" > file.txt<br>
 " >> "	--- Add the result of a command to the end of a file. ---	echo "Hello, World" >> file.txt<br>
 " ; "	--- Run multiple commands in a row, one after another. ---	echo "Howdy there!" ; cat file.xt<br>
