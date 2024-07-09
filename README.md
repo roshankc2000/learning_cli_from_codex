@@ -47,9 +47,9 @@ cp file-a > file-b	--- Copy content of file-a into a file-b (overwriting anythin
 cp -r directory-a directory-b ---	Copy content of directory-a into a directory-b (overwriting anything already inside).<br>
 
 # Operators
-Operator ---	Description ---	Example<br>
->	--- Overwrite the contents of a file with the results of a command. ---	echo "Hello, World" > file.txt<br>
->>	--- Add the result of a command to the end of a file. ---	echo "Hello, World" >> file.txt<br>
-;	--- Run multiple commands in a row, one after another. ---	echo "Howdy there!" ; cat file.xt<br>
-||	--- Logical OR: Runs an alternative command if the first one fails. ---	mkdir work || echo "Directory creation failed. Does it already exist?"<br>
-&&	--- Logical AND: Runs the next command if the first one succeeds. ---	mkdir video-games && cd video-games<br>
+" Operator " ---	Description ---	Example<br>
+" > "	--- Overwrite the contents of a file with the results of a command. ---	echo "Hello, World" > file.txt<br>
+" >> "	--- Add the result of a command to the end of a file. ---	echo "Hello, World" >> file.txt<br>
+" ; "	--- Run multiple commands in a row, one after another. ---	echo "Howdy there!" ; cat file.xt<br>
+" || "	--- Logical OR: Runs an alternative command if the first one fails. ---	mkdir work || echo "Directory creation failed. Does it already exist?"<br>
+" && "	--- Logical AND: Runs the next command if the first one succeeds. ---	mkdir video-games && cd video-games<br>
