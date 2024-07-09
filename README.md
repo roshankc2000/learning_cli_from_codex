@@ -36,7 +36,10 @@ cp -r directory-a directory-b ---	Copy content of directory-a into a directory-b
 " || "	--- Logical OR: Runs an alternative command if the first one fails. ---	mkdir work || echo "Directory creation failed. Does it already exist?"<br>
 " && "	--- Logical AND: Runs the next command if the first one succeeds. ---	mkdir video-games && cd video-games<br>
 
-### Navigation
+
+# CODEX Learning Patter: 
+link to course: course: https://www.codedex.io/command-line <br>
+## Navigation
 
 01. Beginning...
 02. Filesystem
@@ -45,7 +48,7 @@ cp -r directory-a directory-b ---	Copy content of directory-a into a directory-b
 05. Clean Slate
 06. Scavenger Hunt
 
-### Manipulation
+## Manipulation
 
 07. Recipes
 08. Cuisine Type
