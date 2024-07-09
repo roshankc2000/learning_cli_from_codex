@@ -1,23 +1,5 @@
 # learning_cli_from_codex
 
-### Navigation
-
-01. Beginning...
-02. Filesystem
-03. Moving Day
-04. House Tour
-05. Clean Slate
-06. Scavenger Hunt
-
-### Manipulation
-
-07. Recipes
-08. Cuisine Type
-09. Grilled Cheese
-10. Move Around
-11. Copy That
-12. Music Playlists
-
 # Navigation
 ## Command	--- Description
 echo --- output-here	Print what is typed next to this command.<br>
@@ -53,3 +35,21 @@ cp -r directory-a directory-b ---	Copy content of directory-a into a directory-b
 " ; "	--- Run multiple commands in a row, one after another. ---	echo "Howdy there!" ; cat file.xt<br>
 " || "	--- Logical OR: Runs an alternative command if the first one fails. ---	mkdir work || echo "Directory creation failed. Does it already exist?"<br>
 " && "	--- Logical AND: Runs the next command if the first one succeeds. ---	mkdir video-games && cd video-games<br>
+
+### Navigation
+
+01. Beginning...
+02. Filesystem
+03. Moving Day
+04. House Tour
+05. Clean Slate
+06. Scavenger Hunt
+
+### Manipulation
+
+07. Recipes
+08. Cuisine Type
+09. Grilled Cheese
+10. Move Around
+11. Copy That
+12. Music Playlists
